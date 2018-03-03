@@ -1,0 +1,107 @@
+Last login: Sat Feb 24 07:40:04 on console
+wlguest-144-13:~ ralucahartu$ python3 --version
+Python 3.6.1
+wlguest-144-13:~ ralucahartu$ Python 3.6.1
+Python: can't open file '3.6.1': [Errno 2] No such file or directory
+wlguest-144-13:~ ralucahartu$ python3 --version
+Python 3.6.1
+wlguest-144-13:~ ralucahartu$ 
+wlguest-144-13:~ ralucahartu$ pwd
+/Users/ralucahartu
+wlguest-144-13:~ ralucahartu$ ls
+Creative Cloud Files	Google Drive		Pictures
+Desktop			Library			Public
+Documents		Movies
+Downloads		Music
+wlguest-144-13:~ ralucahartu$ mkdir Projects
+wlguest-144-13:~ ralucahartu$ cd Projects/
+wlguest-144-13:Projects ralucahartu$ ls
+wlguest-144-13:Projects ralucahartu$ èwd
+-bash: èwd: command not found
+wlguest-144-13:Projects ralucahartu$ pwd
+/Users/ralucahartu/Projects
+wlguest-144-13:Projects ralucahartu$ mkdir djangogirls
+wlguest-144-13:Projects ralucahartu$ cd djangogirls/
+wlguest-144-13:djangogirls ralucahartu$ ls
+wlguest-144-13:djangogirls ralucahartu$ pwd
+/Users/ralucahartu/Projects/djangogirls
+wlguest-144-13:djangogirls ralucahartu$ python3 -m venv myvenv
+wlguest-144-13:djangogirls ralucahartu$ ls
+myvenv
+wlguest-144-13:djangogirls ralucahartu$ source myvenv/bin/activate
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ pip install --upgrade pip
+Requirement already up-to-date: pip in ./myvenv/lib/python3.6/site-packages
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ pip install django~=1.11.0
+Collecting django~=1.11.0
+  Downloading Django-1.11.10-py2.py3-none-any.whl (6.9MB)
+    100% |████████████████████████████████| 7.0MB 191kB/s 
+Collecting pytz (from django~=1.11.0)
+  Downloading pytz-2018.3-py2.py3-none-any.whl (509kB)
+    100% |████████████████████████████████| 512kB 2.6MB/s 
+Installing collected packages: pytz, django
+Successfully installed django-1.11.10 pytz-2018.3
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ django-admin startproject mysite .
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying sessions.0001_initial... OK
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ (myvenv) ~/djangogirls$ python manage.py runserver
+-bash: syntax error near unexpected token `~/djangogirls$'
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ python manage.py runserver 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ ©©©
+-bash: ©©©: command not found
+
+
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ python manage.py runserver 0:8000
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 03, 2018 - 11:53:23
+Django version 1.11.10, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[03/Mar/2018 11:54:02] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[03/Mar/2018 11:54:02] "GET /favicon.ico HTTP/1.1" 404 1962
+Not Found: /favicon.ico
+[03/Mar/2018 11:54:02] "GET /favicon.ico HTTP/1.1" 404 1962
+python manage.py startapp blog
+
+
+
+
+
+
+^Z                    
+[1]+  Stopped                 python manage.py runserver 0:8000
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ python manage.py startapp blog
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
+(myvenv) wlguest-144-13:djangogirls ralucahartu$ 
